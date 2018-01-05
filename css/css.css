@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+    androidカラーコード #argb
+    cssでのカラーコード #rgba
+*/
+
+body {
+    color: #663838;
+    color: #663838bb;
+    font:20px/170% "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+
+    margin: 50px 0 0 0;
+}
+
+header {
+    color: #fff;
+    background-color: #febfe4;
+
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+header > p {
+    text-align: left;
+    margin: 0 15px;
+    line-height: 40px;
+}
+
+/* 準備中 */
+.pre {
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto 0 auto;
+}
